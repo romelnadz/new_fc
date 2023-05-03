@@ -147,6 +147,8 @@ module.exports = {
         '72': '288px',
         '80': '320px',
         '96': '384px',
+        'square_1024px' : '1024px',
+        'laptop_1280px': '1280px'
         
        
       },
