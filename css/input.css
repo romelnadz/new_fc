@@ -115,6 +115,11 @@
           @apply tw-flex tw-flex-col tw-justify-center tw-items-start
         }
          
+         .col-start-end
+        {
+          @apply tw-flex tw-flex-col tw-justify-start tw-items-end
+        }
+         
        
 
 
@@ -127,6 +132,11 @@
         .row-between-center
         {
           @apply tw-flex tw-flex-row tw-justify-between tw-items-center
+        }
+        /* .start-row */
+        .row-between-start
+        {
+          @apply tw-flex tw-flex-row tw-justify-between tw-items-start
         }
         /* .start-row */
         .row-start-center

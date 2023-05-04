@@ -229,7 +229,7 @@
         .##.....##.########..######...##.....##....##.....##.########.##....##..#######.
          -->
          <div id="mega_menu_products_modal" 
-         class="tw-fixed tw-z-40 tw-w-full tw-h-full tw-hidden tw-justify-end tablet:tw-justify-center tw-backdrop-blur-sm tw-bg-slate-800/50">
+         class="tw-fixed tw-z-40 tw-w-full tw-h-full col-start-end laptop:col-start-center tw-backdrop-blur-sm tw-bg-slate-800/50">
 
                 <!-- 
                 .##......##.##.....##.####.########.########....########...#######..##.....##
@@ -240,11 +240,13 @@
                 .##..##..##.##.....##..##.....##....##..........##.....##.##.....##..##...##.
                 ..###..###..##.....##.####....##....########....########...#######..##.....##
                  -->
-                <div id="product" class="mega_menu_anim tw-relative tw-h-full tw-mt-16 tw-overflow-y-scroll tw-bg-white tw-w-72 blue_border1 laptop:tw-mt-20 tablet:tw-w-full laptop:tw-w-laptop_1280px tablet:tw-h-96 col-start-center tablet:row-center-center">
+                <div id="product" 
+                class="tw-h-full tw-mt-16 tw-overflow-y-scroll tw-bg-white tw-rounded-none tw-w-72 mega_menu_anim blue_border1 laptop:tw-rounded-2xl laptop:tw-mt-20 tablet:tw-w-full laptop:tw-w-laptop_1280px tablet:tw-h-96 col-start-center tablet:row-center-center">
 
+                
                 <div class="tw-w-full tw-h-16 tw-mt-4 tw-mb-1 row-center-center tablet:tw-hidden green_border1">
-                    <input type="search" placeholder="Search..." name="" id="" class="tw-w-48 tw-h-10 tw-font-normal tw-border-1 tw-border-slate-200/0 tw-bg-slate-200 tw-text-md tw-text-slate-600 tw-placeholder:tw-text-slate-200 tw-placeholder:tw-font-light"></input>
-                    <button class="tw-w-16 tw-h-10 tw-bg-slate-200 tw-border-1 row-center-center">
+                    <input type="search" placeholder="Search..." name="" id="" class="tw-w-48 tw-h-10 tw-font-normal tw-rounded-tl-2xl tw-border-1 tw-border-slate-200/0 tw-bg-slate-200 tw-text-md tw-text-slate-600 tw-placeholder:tw-text-slate-200 tw-placeholder:tw-font-light"></input>
+                    <button class="tw-w-16 tw-h-10 tw-rounded-tr-2xl tw-bg-slate-200 tw-border-1 row-center-center">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" fill="#64748B"/>
                         </svg>
@@ -263,29 +265,240 @@
                 
                 <!-- CATEGEORY -->
                 <div class="tw-gap-1 tw-h-80 tablet:tw-h-80 tw-w-72 tablet:tw-w-72 pink_bord1er col-center-center">
-                    <h1 class="tw-w-64 tw-px-4 tw-py-3 tw-text-2xl tw-font-bold tw-leading-tight tw-font-outfit tw-text-slate-600 drop-shadow-md tw-bg-slate-100 "> Browse by<br>Categories</h1>
+                    <h1 class="tw-w-64 tw-px-4 tw-py-3 tw-text-2xl tw-font-bold tw-leading-tight tw-rounded-none tw-font-outfit tw-text-slate-600 drop-shadow-md tw-bg-slate-100 square:tw-rounded-tl-2xl"> Browse by<br>Categories</h1>
                     <div class="tw-w-full tw-gap-1 col-center-center tab_nav green_border1">
                         <label class="tw-w-64 tw-px-4 tw-py-1 tw-text-xl tw-font-normal tw-transition tw-duration-300 tw-ease-in-out tw-cursor-pointer px-2 tw-bg-slate-100 laptop:tw-w-full tw-font-outfit hover:tw-font-semibold tw-text-slate-600 hover:tw-text-fc_red hover:tw-translate-x-1" id="one-tab" for="one">Shape and Sizes</label>
                         <label class="tw-w-64 tw-px-4 tw-py-1 tw-text-xl tw-font-normal tw-transition tw-duration-300 tw-ease-in-out tw-cursor-pointer px-2 tw-bg-slate-100 laptop:tw-w-full tw-font-outfit hover:tw-font-semibold tw-text-slate-600 hover:tw-text-fc_red hover:tw-translate-x-1" id="five-tab" for="five">Looks and Colors</label>
                         <label class="tw-w-64 tw-px-4 tw-py-1 tw-text-xl tw-font-normal tw-leading-none tw-transition tw-duration-300 tw-ease-in-out tw-cursor-pointer px-2 tw-bg-slate-100 laptop:tw-w-full tw-font-outfit hover:tw-font-semibold tw-text-slate-600 hover:tw-text-fc_red hover:tw-translate-x-1" id="two-tab" for="two">Mosaics, Vinyls and<br>Borders</label>
                         <label class="tw-w-64 tw-px-4 tw-py-1 tw-text-xl tw-font-normal tw-transition tw-duration-300 tw-ease-in-out tw-cursor-pointer px-2 tw-bg-slate-100 laptop:tw-w-full tw-font-outfit hover:tw-font-semibold tw-text-slate-600 hover:tw-text-fc_red hover:tw-translate-x-1" id="three-tab" for="three">Sanitary Wares</label>
-                        <label class="tw-w-64 tw-px-4 tw-py-2 tw-text-xl tw-font-normal tw-leading-none tw-transition tw-duration-300 tw-ease-in-out tw-cursor-pointer px-2 tw-bg-slate-100 laptop:tw-w-full tw-font-outfit hover:tw-font-semibold tw-text-slate-600 hover:tw-text-fc_red hover:tw-translate-x-1" id="four-tab" for="four">Trims, Grouts and<br>Adhesives</label>
+                        <label class="tw-w-64 tw-px-4 tw-py-2 tw-text-xl tw-font-normal tw-leading-none tw-transition tw-duration-300 tw-ease-in-out tw-cursor-pointer tablet:tw-rounded-none square:tw-rounded-bl-2xl px-2 tw-bg-slate-100 laptop:tw-w-full tw-font-outfit hover:tw-font-semibold tw-text-slate-600 hover:tw-text-fc_red hover:tw-translate-x-1" id="four-tab" for="four">Trims, Grouts and<br>Adhesives</label>
                     </div>
                 </div>
                 
-                <div class="tw-h-[800px] tablet:tw-h-80 tw-w-64 tablet:tw-w-full blue_bo1rder tw-bg-slate-100 tw-overflow-y-scrol">
+                <div class="tw-h-[800px] tablet:tw-h-80 tw-w-64 tablet:tw-w-full blue_bo1rder tw-bg-slate-100 tw-rounded-none tw-rounded-b-2xl tablet:tw-rounded-r-2xl tablet:tw-rounded-none tw-overflow-y-scrol">
 
                 </div>
                 <div class="tw-w-full tw-h-10 tablet:tw-hidden green_border">
                 </div>
-                   
+                    
+
+
+                
+                    
                 </div>
                     
                 </div>
             <!-- MEGA MENU DESKTOP CONTENT END -->
 
         </div>
-      
+        <!-- 
+        .########..##........#######...######.........###....##....##.########.....####.########..########....###.....######.
+        .##.....##.##.......##.....##.##....##.......##.##...###...##.##.....##.....##..##.....##.##.........##.##...##....##
+        .##.....##.##.......##.....##.##............##...##..####..##.##.....##.....##..##.....##.##........##...##..##......
+        .########..##.......##.....##.##...####....##.....##.##.##.##.##.....##.....##..##.....##.######...##.....##..######.
+        .##.....##.##.......##.....##.##....##.....#########.##..####.##.....##.....##..##.....##.##.......#########.......##
+        .##.....##.##.......##.....##.##....##.....##.....##.##...###.##.....##.....##..##.....##.##.......##.....##.##....##
+        .########..########..#######...######......##.....##.##....##.########.....####.########..########.##.....##..######.
+         -->
+        <div id="mega_menu_blog_modal_div" class="tw-fixed tw-z-40 tw-justify-end tw-hidden tw-w-full tw-h-full laptop:tw-justify-center tw-backdrop-blur-sm tw-bg-slate-800/50">
+        <!-- <div id="mega_menu_blog_modal" class="tw-fixed tw-z-10 tw-justify-end tw-hidden tw-w-full tw-h-full tw-shadow-lg laptop:tw-justify-center"> -->
+
+            <div id="blogs" class="mega_menu_anim tw-m-0 laptop:tw-mx-auto tw-h-full laptop:tw-h-96 tw-w-[80%] tablet:tw-w-[50%] tw-mt-16 laptop:tw-mt-20 laptop:tw-w-[1400px] tw-relative tw-bg-white tw-backdrop-blur-md laptop:tw-rounded-sm tw-overflow-y-scroll laptop:tw-overflow-y-hidden">
+                
+                <!-- FLEX CONTAINER TO RIGHT HORIZONTAL -->
+                <div class="tw-flex tw-items-center tw-w-full tw-h-full 1green_border">
+                 
+                <!-- BLOG AND IDEAS AND CONTAINER HORIZONTAL -->
+                <div class="tw-flex tw-flex-row tw-ml-8 tw-h-80 tw-w-fit blue_border1"> 
+                    <!-- BIG BLOG CONTAINER -->
+                    <div class="tw-h-80 tw-w-60">
+                        <!-- TEXT ON TOP ABSOLUTE -->
+                        <h4 class="tw-absolute tw-z-10 tw-float-right tw-p-4 tw-text-3xl tw-font-medium tw-text-left tw-text-slate-100 tw-font-outfit">Styles and <br>Ideas</h4> 
+                            <a href="https://floorcenter.com/products?category=grout" target="_blank" rel="noopener noreferrer">
+                            <!-- IMAGE CONTAINER WITH ROUNDED -->
+                            <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                <!-- IMAGE -->
+                                <div class="tw-w-full tw-h-full tw-transition-transform tw-duration-300 tw-ease-in-out hover:tw-scale-110" style="background: url('src/img/blog/blog.png') right/cover no-repeat;">
+                                    <!-- FILTER -->
+                                    <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-900/50 hover:tw-bg-slate-900/20"></div> 
+                                </div>
+                            </div>
+                            </a>
+                    </div>
+                    <!-- BLOG LIST CONTAINER -->
+                    <div class="tw-flex tw-flex-col tw-justify-between tw-ml-3 tw-w-fit tw-h-80 pink_border1">
+                        <!-- BLOG 1 FLEX HORIZONTAL-->
+                        <div class="tw-w-full tw-h-[100px] tw-flex tw-flex-row tw-justify-start">
+                            <!-- THUMBNAIL -->
+                            <div class="tw-h-[100px] tw-w-[180px]">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                <!-- IMAGE CONTAINER WITH ROUNDED -->
+                                <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                    <!-- IMAGE -->
+                                    <div class="tw-w-full tw-h-full" style="background: url('src/img/blog/blog_1.png') center/cover no-repeat;">
+                                        <!-- FILTER -->
+                                        <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-700/40 hover:tw-bg-slate-700/10"></div> 
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <!-- TEXT -->
+                            <div class="tw-h-[100px] tw-w-[180px] tw-ml-4 tw-flex tw-flex-col tw-justify-evenly pink_border1">
+                                <span class="tw-text-base tw-font-semibold tw-leading-tight tw-font-outfit tw-text-slate-600 ">
+                                    5 Design Tips for Small Spaces
+                                </span>
+                                <span class="tw-text-sm tw-font-medium tw-leading-tight tw-font-outfit tw-text-slate-500 ">
+                                    Who says that you cant make a small room look amazing?
+                                </span>
+                            </div>
+                        </div>
+                        <!-- BLOG 1 FLEX HORIZONTAL-->
+                        <div class="tw-w-full tw-h-[100px] tw-flex tw-flex-row tw-justify-start">
+                            <!-- THUMBNAIL -->
+                            <div class="tw-h-[100px] tw-w-[180px]">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                <!-- IMAGE CONTAINER WITH ROUNDED -->
+                                <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                    <!-- IMAGE -->
+                                    <div class="tw-w-full tw-h-full" style="background: url('src/img/blog/blog_2.png') center/cover no-repeat;">
+                                        <!-- FILTER -->
+                                        <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-700/40 hover:tw-bg-slate-700/10"></div> 
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <!-- TEXT -->
+                            <div class="tw-h-[100px] tw-w-[180px] tw-ml-4 tw-flex tw-flex-col tw-justify-evenly pink_border1">
+                                <span class="tw-text-base tw-font-semibold tw-leading-tight tw-font-outfit tw-text-slate-600 ">
+                                    4 Kitchen Design Trends
+                                </span>
+                                <span class="tw-text-sm tw-font-medium tw-leading-tight tw-font-outfit tw-text-slate-500 ">
+                                    Try out your hand with these designs and discover what kitchen look...
+                                </span>
+                            </div>
+                        </div>
+                        <!-- BLOG 1 FLEX HORIZONTAL-->
+                        <div class="tw-w-full tw-h-[100px] tw-flex tw-flex-row tw-justify-start">
+                            <!-- THUMBNAIL -->
+                            <div class="tw-h-[100px] tw-w-[180px]">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                <!-- IMAGE CONTAINER WITH ROUNDED -->
+                                <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                    <!-- IMAGE -->
+                                    <div class="tw-w-full tw-h-full" style="background: url('src/img/blog/blog_3.png') center/cover no-repeat;">
+                                        <!-- FILTER -->
+                                        <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-700/40 hover:tw-bg-slate-700/10"></div> 
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <!-- TEXT -->
+                            <div class="tw-h-[100px] tw-w-[180px] tw-ml-4 tw-flex tw-flex-col tw-justify-evenly pink_border1">
+                                <span class="tw-text-base tw-font-semibold tw-leading-tight tw-font-outfit tw-text-slate-600 ">
+                                    5 Bathroom Tile Ideas
+                                </span>
+                                <span class="tw-text-sm tw-font-medium tw-leading-tight tw-font-outfit tw-text-slate-500 ">
+                                    Think about how your bathroom can match your current living space...
+                                </span>
+                            </div>
+                        </div>
+                        
+                      
+                    </div>
+                </div>
+
+                <!-- COLLECTION CONTAINER HORIZONTAL -->
+                <div class="tw-flex tw-flex-row tw-ml-8 tw-h-80 tw-w-fit blue_border1"> 
+                    <!-- FEATURED CONTAINER -->
+                    <div class="tw-h-80 tw-w-60">
+                        <!-- TEXT ON TOP ABSOLUTE -->
+                        <h4 class="tw-absolute tw-z-10 tw-float-right tw-p-4 tw-text-3xl tw-font-medium tw-text-left tw-text-slate-100 tw-font-outfit">Featured <br>Collections</h4> 
+                            <a href="" target="_blank" rel="noopener noreferrer">
+                            <!-- IMAGE CONTAINER WITH ROUNDED -->
+                            <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                <!-- IMAGE -->
+                                <div class="tw-w-full tw-h-full tw-transition-transform tw-duration-300 tw-ease-in-out hover:tw-scale-110" style="background: url('src/img/blog/collection.png') center/cover no-repeat;">
+                                    <!-- FILTER -->
+                                    <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-900/50 hover:tw-bg-slate-900/20"></div> 
+                                </div>
+                            </div>
+                            </a>
+                    </div>
+                    <!-- GRID CONTAINER -->
+                    <div class="tw-flex tw-flex-col tw-justify-between tw-ml-3 tw-w-fit tw-h-80 pink_border1">
+                        <!-- ROW 1 FLEX HORIZONTAL-->
+                        <div class="tw-w-full tw-h-[154px] tw-flex tw-flex-row tw-justify-start">
+                                <!-- THUMBNAIL -->
+                                <div class="tw-h-[154px] tw-w-52">
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                    <!-- IMAGE CONTAINER WITH ROUNDED -->
+                                    <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                        <!-- IMAGE -->
+                                        <h4 class="tw-absolute tw-z-10 tw-float-right tw-p-4 tw-text-xl tw-font-normal tw-leading-tight tw-text-left tw-text-white tw-font-outfit">First in the PH<br>90x180cm <br> Big Slabs</h4> 
+                                        <div class="tw-w-full tw-h-full" style="background: url('src/img/blog/big_slab.png') center/cover no-repeat;">
+                                            <!-- FILTER -->
+                                            <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-700/50 hover:tw-bg-slate-700/10"></div> 
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <!-- THUMBNAIL -->
+                                <div class="tw-h-[154px] tw-w-52 tw-ml-3">
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                    <!-- IMAGE CONTAINER WITH ROUNDED -->
+                                    <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                        <!-- IMAGE -->
+                                        <h4 class="tw-absolute tw-z-10 tw-float-right tw-p-4 tw-text-xl tw-font-normal tw-text-right tw-text-white tw-font-outfit">Tile Catalogues</h4> 
+                                        <div class="tw-w-full tw-h-full" style="background: url('src/img/blog/catalog.png') center/cover no-repeat;">
+                                            <!-- FILTER -->
+                                            <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-700/40 hover:tw-bg-slate-700/10"></div> 
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                        </div>
+                        <!-- ROW 2 FLEX HORIZONTAL-->
+                        <div class="tw-w-full tw-h-[154px] tw-flex tw-flex-row tw-justify-start">
+                                <!-- THUMBNAIL -->
+                                <div class="tw-h-[154px] tw-w-52">
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                    <!-- IMAGE CONTAINER WITH ROUNDED -->
+                                    <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                        <!-- IMAGE -->
+                                        <h4 class="tw-absolute tw-z-10 tw-float-right tw-p-4 tw-text-xl tw-font-normal tw-text-right tw-text-white tw-font-outfit">Virtual Showrooms</h4> 
+                                        <div class="tw-w-full tw-h-full" style="background: url('src/img/blog/showroom.png') center/cover no-repeat;">
+                                            <!-- FILTER -->
+                                            <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-800/40 hover:tw-bg-slate-700/10"></div> 
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <!-- THUMBNAIL -->
+                                <div class="tw-h-[154px] tw-w-52 tw-ml-3">
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                    <!-- IMAGE CONTAINER WITH ROUNDED -->
+                                    <div class="tw-w-full tw-h-full tw-overflow-clip" style="border-radius: 8px!important;">
+                                        <!-- IMAGE -->
+                                        <h4 class="tw-absolute tw-z-10 tw-float-right tw-p-4 tw-text-xl tw-font-normal tw-text-right tw-text-white tw-font-outfit">Tile Trends</h4> 
+                                        <div class="tw-w-full tw-h-full" style="background: url('src/img/blog/trends.png') center/cover no-repeat;">
+                                            <!-- FILTER -->
+                                            <div class="tw-w-full tw-h-full tw-transition-colors tw-duration-200 tw-ease-in-out tw-bg-slate-700/40 hover:tw-bg-slate-700/10"></div> 
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                        </div>
+                       
+                        
+                        
+                      
+                      
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
 
         <!-- 
         .##.....##.########..######......###.......##.....##.########.##....##.##.....##.....######...######..########..####.########..########
@@ -382,14 +595,13 @@
                 }
             }
            
-            product.onmouseleave = function() {
-                modal.style.display = "none";
-            }
-            blogs.onmouseleave = function() {
-                blog.style.display = "none";
-            }
-        // 
-        </script>
+            // product.onmouseleave = function() {
+            //     modal.style.display = "none";
+            // }
+        //     blogs.onmouseleave = function() {
+        //         blog.style.display = "none";
+        //     }
+        // </script>
     
        
   </header>
