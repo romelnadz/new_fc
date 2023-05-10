@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floor Center</title>
      
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+
     <!-- <link rel="stylesheet" href="css/build.css"> -->
     <link rel="stylesheet" href="css/output.css">
     <link rel="stylesheet" href="css/mega_menu.css">
@@ -230,7 +233,7 @@
         .##.....##.########..######...##.....##....##.....##.########.##....##..#######.......................................................
          -->
          <div id="mega_menu_products_modal" 
-         class="tw-fixed tw-z-40 tw-w-full tw-h-full tw-flex tw-justify-end tablet:tw-justify-center tw-backdrop-blur-sm tw-bg-slate-800/50">
+         class="tw-fixed tw-z-40 tw-w-full tw-h-full tw-hidden tw-justify-end tablet:tw-justify-center tw-backdrop-blur-sm tw-bg-slate-800/50">
 
                 <!-- 
                 .##......##.##.....##.####.########.########....##.....##..#######..########.....###....##...............................................................
@@ -836,7 +839,7 @@
                     ">
                        <!-- PANEL TEXT -->
                         <div class="tw-w-full tw-h-fit tablet:tw-h-12 pink_borde1r row-between-center tw-px-4 tw-border-solid tw-border-slate-200 tw-border-b-2 tw-mx-6">
-                        <h4 class="tw-text-2xl tw-text-slate-700 tw-font-semibold tw-leading-none tw-my-2">Mosaics, Vinyls and Borders </h4>
+                        <h4 class="tw-text-2xl tw-text-slate-700 tw-font-semibold tw-leading-none tw-my-2">Trims, Grout and Adhesives </h4>
                         <span id="close5" class="tw-h-8 tw-w-tw-h-8 row-center-center hover:tw-scale-110  tw-cursor-pointer tw-hidden tablet:tw-block">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M25.3333 8.54667L23.4533 6.66667L16 14.12L8.54667 6.66667L6.66667 8.54667L14.12 16L6.66667 23.4533L8.54667 25.3333L16 17.88L23.4533 25.3333L25.3333 23.4533L17.88 16L25.3333 8.54667Z" fill="#475569"/>
@@ -847,7 +850,7 @@
                     <div class="tw-h-fit tablet:tw-h-96 tw-w-64 laptop:tw-h-full tablet:tw-w-full blue_bord1er col-start-center tablet:row-center-start tablet:tw-flex-wrap laptop:row-center-start tw-gap-4 tablet:tw-p-2 tw-overflow-y-scroll">
                         <div class="tw-w-full tw-h-full blue_bor1der tw-p-2 col-start-center square:row-center-center tw-gap-1">
                             
-                                <div class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
+                                <button class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
                                     <p class="tw-text-white tw-text-2xl tw-absolute tw-z-10 tw-p-4 pink_border1 tw-drop-shadow-xl">Grout</p>
                                     <div class="tw-w-full tw-h-32 tablet:tw-h-80 pink_border1 hover:tw-scale-110  tw-transition-transform tw-duration-200 tw-ease-in-out"
                                     style="background: url('assets/img/grout/grout2.png') center/cover no-repeat;">
@@ -855,8 +858,8 @@
                                         </div>
                                        
                                     </div>
-                                </div>
-                                <div class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
+                                </button>
+                                <button class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
                                     <p class="tw-text-white tw-text-2xl tw-absolute tw-z-10 tw-p-4 pink_border1 tw-drop-shadow-xl">Adhesives</p>
                                     <div class="tw-w-full tw-h-32 tablet:tw-h-80 pink_border1 hover:tw-scale-110  tw-transition-transform tw-duration-200 tw-ease-in-out"
                                     style="background: url('assets/img/grout/adhesive2.png') center/cover no-repeat;">
@@ -864,10 +867,10 @@
                                         </div>
                                        
                                     </div>
-                                </div>
+                                </button>
                                
                          
-                                <div class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
+                                <button class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
                                     <p class="tw-text-white tw-text-2xl tw-absolute tw-z-10 tw-p-4 pink_border1 tw-drop-shadow-xl">Tile Trims</p>
                                     <div class="tw-w-full tw-h-32 tablet:tw-h-80 pink_border1 hover:tw-scale-110  tw-transition-transform tw-duration-200 tw-ease-in-out"
                                     style="background: url('assets/img/grout/trim2.png') center/cover no-repeat;">
@@ -875,9 +878,9 @@
                                         </div>
                                        
                                     </div>
-                                </div>
+                                </button>
                                 
-                                <div class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
+                                <button class="tw-w-full tw-h-full tw-overflow-hidden tw-group tw-relative">
                                     <p class="tw-text-white tw-text-2xl tw-absolute tw-z-10 tw-p-4 pink_border1 tw-drop-shadow-xl">Tile Cutters</p>
                                     <div class="tw-w-full tw-h-32 tablet:tw-h-80 pink_border1 hover:tw-scale-110  tw-transition-transform tw-duration-200 tw-ease-in-out"
                                     style="background: url('assets/img/grout/cutter2.png') center/cover no-repeat;">
@@ -885,7 +888,7 @@
                                         </div>
                                        
                                     </div>
-                                </div>
+                                </button>
                                 
                             
                         </div>
@@ -1027,9 +1030,9 @@
                 // }
             }
            
-            // product.onmouseleave = function() {
-            //     modal.style.display = "none";
-            // }
+            product.onmouseleave = function() {
+                modal.style.display = "none";
+            }
             // blogs.onmouseleave = function() {
             //     blog.style.display = "none";
             // }
