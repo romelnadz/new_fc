@@ -73,11 +73,30 @@
     opacity: 1;
   }
 }
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 
 .panel {
+  animation: fadein .4s;
+}
+.nav_button {
   animation: fadein 0.8s;
   box-shadow: none;
+  animation-duration: 0.5s
 }
+.nav_button-product {
+  animation-duration: 0.5s,
+}
+
+
+
+
 
 
 
