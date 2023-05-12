@@ -1022,6 +1022,10 @@ html {
   height: 0;
 }
 
+.tw-h-1{
+  height: 4px;
+}
+
 .tw-w-10{
   width: 40px;
 }
