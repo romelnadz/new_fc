@@ -80,6 +80,18 @@
               transform: scale(1);
             }
           }
+          @variants responsive {
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            .no-scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+      
+            /* Hide scrollbar for IE, Edge and Firefox */
+            .no-scrollbar {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+          }
 	      }
 
 @layer base 
@@ -129,6 +141,10 @@
 
 
         /* .center-row */
+        .row-evenly-center
+        {
+          @apply tw-flex tw-flex-row tw-justify-evenly tw-items-center
+        }
         .row-center-center
         {
           @apply tw-flex tw-flex-row tw-justify-center tw-items-center
@@ -172,9 +188,13 @@
         {
           @apply tw-border-sky-300 tw-border-solid tw-border
         }
+        .card-border
+        {
+          @apply tw-border-slate-100 tw-border-solid tw-border
+        }
         .pink_border
         {
-          @apply tw-border-pink-500 tw-border-dashed tw-border-2
+          @apply tw-border-pink-500 tw-border-dashed tw-border
         }
         .blue_border
         {
