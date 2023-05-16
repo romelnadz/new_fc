@@ -176,6 +176,10 @@
         {
           @apply tw-flex tw-flex-row tw-justify-end tw-items-center
         }
+        .row-end-start
+        {
+          @apply tw-flex tw-flex-row tw-justify-end tw-items-start
+        }
 
 
 
@@ -190,7 +194,7 @@
         }
         .card-border
         {
-          @apply tw-border-slate-100 tw-border-solid tw-border
+          @apply tw-border-slate-50 tw-border-solid tw-border
         }
         .pink_border
         {
