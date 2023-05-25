@@ -125,6 +125,10 @@
         {
           @apply tw-flex tw-flex-col tw-justify-start tw-items-start
         }
+         .col-between-start
+        {
+          @apply tw-flex tw-flex-col tw-justify-between tw-items-start
+        }
          
        
 
@@ -164,6 +168,10 @@
         .row-end-center
         {
           @apply tw-flex tw-flex-row tw-justify-end tw-items-center
+        }
+        .row-evenly-center
+        {
+          @apply tw-flex tw-flex-row tw-justify-evenly tw-items-center
         }
         .row-end-start
         {
