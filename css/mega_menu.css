@@ -85,6 +85,9 @@
 .panel {
   animation: fadein .4s;
 }
+.hamburger {
+  animation: fadein .4s;
+}
 .nav_button {
   animation: fadein 0.8s;
   box-shadow: none;
@@ -147,13 +150,14 @@
   /* color: #BF1901 !important; */
 }
 
-#one:checked ~ .tab_nav #one-tab,
-#two:checked ~ .tab_nav #two-tab,
-#three:checked ~ .tab_nav #three-tab,
-#four:checked ~ .tab_nav #four-tab,
-#five:checked ~ .tab_nav #five-tab,
-#six:checked ~ .tab_nav #six-tab
+#one1:checked ~ .hamburgers #one-hamburger,
+#two1:checked ~ .hamburgers #two-hamburger,
+#three1:checked ~ .hamburgers #three-hamburger,
+#four1:checked ~ .hamburgers #four-hamburger,
+#five1:checked ~ .hamburgers #five-hamburger
+/* #six:checked ~ .hamburgers #six-hamburger */
 {
+  display: flex;
   /* color: #000;
   /* text-decoration: underline; */
   /* text-decoration: underline; */
